@@ -1,2 +1,2 @@
 # Vector-AI-Pipeline
-This is a simple fashion MNIST pipeline
+This is a simple real time fashion MNIST prediction using Kafka and Python.
