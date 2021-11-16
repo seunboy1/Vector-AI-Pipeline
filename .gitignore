@@ -131,3 +131,5 @@ dmypy.json
 # project based
 Part_1/train
 Part_1/val
+.DS_Store
+
