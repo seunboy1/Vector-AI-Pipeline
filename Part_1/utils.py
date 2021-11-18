@@ -1,4 +1,4 @@
-
+import time
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import datasets, utils
@@ -38,6 +38,9 @@ def architecture(input_shape=(28, 28, 1), classes=10):
 
 def save_model(path, model):
     # Saves the model in a specified directory (path)
+    
+    current_time = int(time.time())
+    path = f"{path}/{current_time}"
     model.save(path)
 
 

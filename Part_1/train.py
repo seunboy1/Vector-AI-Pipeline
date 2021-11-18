@@ -69,7 +69,7 @@ def train_mnist_conv():
     )
 
     #save model
-    save_model(args.save_path + '/my_model.h5', model)
+    save_model(args.save_path , model)
 
     return history, history.history['accuracy'][-1]
 
@@ -120,7 +120,7 @@ def train_custom_dataset():
         verbose = 2)
     
     #save model
-    save_model(args.save_path + '/my_model.h5' , model)
+    save_model(args.save_path , model)
     
     return history, history.history['accuracy'][-1]
 
